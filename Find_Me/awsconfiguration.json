@@ -1,0 +1,51 @@
+{
+    "UserAgent": "MobileHub/1.0",
+    "Version": "1.0",
+    "CredentialsProvider": {
+        "CognitoIdentity": {
+            "Default": {
+                "PoolId": "us-east-1:770f586c-4eab-4394-a78f-28b48d9eaa66",
+                "Region": "us-east-1"
+            }
+        }
+    },
+    "IdentityManager": {
+        "Default": {}
+    },
+    "CognitoUserPool": {
+        "Default": {
+            "PoolId": "us-east-1_tqbao7HT8",
+            "AppClientId": "3uipv569e58qcs63ldd5qp2jhb",
+            "AppClientSecret": "1v805gr61l3epp31ssmslp76unnm23eb22k1ebf2rsa3qomsef5t",
+            "Region": "us-east-1"
+        }
+    },
+    "S3TransferUtility": {
+        "Default": {
+            "Bucket": "driveunit-userfiles-mobilehub-543442040",
+            "Region": "us-east-1"
+        }
+    },
+    "Cognito": {
+        "Default": {
+            "Region": "us-east-1"
+        }
+    },
+    "PinpointAnalytics": {
+        "Default": {
+            "AppId": "574d894f9e8f4556b6c92581d90184e8",
+            "Region": "us-east-1"
+        }
+    },
+    "PinpointTargeting": {
+        "Default": {
+            "Region": "us-east-1"
+        }
+    },
+    "UserFileManager": {
+        "Default": {
+            "Bucket": "driveunit-userfiles-mobilehub-543442040",
+            "Region": "us-east-1"
+        }
+    }
+}

@@ -1,0 +1,130 @@
+PODS:
+  - Async (0.2.0)
+  - AWSAuth (2.6.13):
+    - AWSAuth/Core (= 2.6.13)
+    - AWSAuth/FacebookSignIn (= 2.6.13)
+    - AWSAuth/GoogleSignIn (= 2.6.13)
+    - AWSAuth/UI (= 2.6.13)
+    - AWSAuth/UserPoolsSignIn (= 2.6.13)
+  - AWSAuth/Core (2.6.13):
+    - AWSAuthCore (= 2.6.13)
+  - AWSAuth/FacebookSignIn (2.6.13):
+    - AWSFacebookSignIn (= 2.6.13)
+  - AWSAuth/GoogleSignIn (2.6.13):
+    - AWSGoogleSignIn (= 2.6.13)
+  - AWSAuth/UI (2.6.13):
+    - AWSAuthUI (= 2.6.13)
+  - AWSAuth/UserPoolsSignIn (2.6.13):
+    - AWSUserPoolsSignIn (= 2.6.13)
+  - AWSAuthCore (2.6.13):
+    - AWSCore (= 2.6.13)
+  - AWSAuthUI (2.6.13):
+    - AWSAuthCore (= 2.6.13)
+    - AWSCore (= 2.6.13)
+  - AWSCognito (2.6.13):
+    - AWSCore (= 2.6.13)
+  - AWSCognitoAuth (2.6.13):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+  - AWSCognitoIdentityProvider (2.6.13):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.6.13)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.6.13)
+  - AWSDynamoDB (2.6.13):
+    - AWSCore (= 2.6.13)
+  - AWSEC2 (2.6.13):
+    - AWSCore (= 2.6.13)
+  - AWSFacebookSignIn (2.6.13):
+    - AWSAuthCore (= 2.6.13)
+    - FBSDKCoreKit (~> 4.0)
+    - FBSDKLoginKit (~> 4.0)
+  - AWSGoogleSignIn (2.6.13):
+    - AWSAuthCore (= 2.6.13)
+  - AWSLex (2.6.13):
+    - AWSCore (= 2.6.13)
+  - AWSLogs (2.6.13):
+    - AWSCore (= 2.6.13)
+  - AWSMobileClient (2.6.13):
+    - AWSAuthCore (= 2.6.13)
+  - AWSPinpoint (2.6.13):
+    - AWSCore (= 2.6.13)
+  - AWSPolly (2.6.13):
+    - AWSCore (= 2.6.13)
+  - AWSRekognition (2.6.13):
+    - AWSCore (= 2.6.13)
+  - AWSS3 (2.6.13):
+    - AWSCore (= 2.6.13)
+  - AWSUserPoolsSignIn (2.6.13):
+    - AWSAuthCore (= 2.6.13)
+    - AWSCognitoIdentityProvider (= 2.6.13)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - FBSDKCoreKit (4.31.1):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.31.1):
+    - FBSDKCoreKit
+  - PKHUD (5.0.0)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+
+DEPENDENCIES:
+  - Async
+  - AWSAuth
+  - AWSAuthCore
+  - AWSAuthUI
+  - AWSCognito
+  - AWSCognitoAuth
+  - AWSCognitoIdentityProvider
+  - AWSDynamoDB
+  - AWSEC2
+  - AWSFacebookSignIn
+  - AWSGoogleSignIn
+  - AWSLex
+  - AWSLogs
+  - AWSMobileClient
+  - AWSPinpoint
+  - AWSPolly
+  - AWSRekognition
+  - AWSS3
+  - AWSUserPoolsSignIn
+  - PKHUD
+  - RxCocoa
+  - RxSwift
+
+SPEC CHECKSUMS:
+  Async: d80205f1a1b4eea24de8ddc62cf5197ff3025330
+  AWSAuth: fc460d5a96f586539bac94ad9ae66c654213ee6f
+  AWSAuthCore: 821990b7fc2febe5ed5eb42199ea55ee22ac911d
+  AWSAuthUI: 8c11af8f87939479cd0d94bd840e030eb599db3a
+  AWSCognito: 26f1263726ddc4c16b2a9876402b4bc5c25199b7
+  AWSCognitoAuth: ab606147f4a32d2206af89d686e2d76a3702a397
+  AWSCognitoIdentityProvider: c532434167c99ec42126447a83c6a2f2ea18f678
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: 5da797bc476188fdaf00dec134fa18d84708eca9
+  AWSDynamoDB: 36abff7ce93fcadad2c4dc6f729d8716c933adf2
+  AWSEC2: a4609be6fd194f0468bb07f18e51e66473cfd4ac
+  AWSFacebookSignIn: 13e136b70e1cba49867ab78dc847f4e113d6950b
+  AWSGoogleSignIn: 0c449b84ebb962befd6f378337b1dc6d24fab17e
+  AWSLex: ab636eb897ccc22c9722bc2ea09fab5532339ba8
+  AWSLogs: 53ee3bf6c1eef3d4a02f6f7066c0074fa472b9c2
+  AWSMobileClient: bf1c341c91f82eda8f757cd96dc0cbb3d1f0b768
+  AWSPinpoint: 47b0351d0adb0e12681da4ac9fe19f2690d6c713
+  AWSPolly: 54a924249b43191843c93fdf46d07cba60f0fe9c
+  AWSRekognition: 8c3ae14821f79c798b69cddef1bba49032895fc5
+  AWSS3: 7c178c82c2e648559b7075a663335055327dd4f5
+  AWSUserPoolsSignIn: 6d5a7dedeac2e3f2a84d7c838a5df85aa386f1c7
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  FBSDKCoreKit: e08ccfcefa7bc1347a07c276dac9bf6c7fe57024
+  FBSDKLoginKit: 99797ac39252fef6f72600b886f6ee60b4b29cab
+  PKHUD: 3c001512c6e002091184197a8de7a20420786e3b
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+
+PODFILE CHECKSUM: 5a4df21639908cb269a4cd0556a96f54c549e1a9
+
+COCOAPODS: 1.4.0
